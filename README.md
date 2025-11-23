@@ -11,6 +11,7 @@ net user
 Usually the hotmail account starts with the first four letters of your hotmail account. Add a local account using the follwing command
 ```
 net user /add mylocaluser mylocaluser
+net localgroup Administrator /add mylocaluser
 ```
 This command will create a new user called **mylocaluser** and as password **mylocaluser**
 
